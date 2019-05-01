@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Scraping With Mongoose</title>
     <style>
-      body { background-color: #F2F6D0 }
+      body { background-color: rgb(212, 182, 236) }
       #wrapper {
         width: 960px;
         margin-left: auto;
@@ -34,12 +34,18 @@
         height: 200px;
         font-size: 18px;
       }
+      #noteScraper {
+        color: goldenrod;
+      }
+      #allRecipe{
+        color: goldenrod;
+      }
     </style>
   </head>
   <body>
     <div id="wrapper">
-      <h1>Note Scraper</h1>
-      <h2><i>All Recipe</i></h2>
+      <h1 id="noteScraper">Note Scraper</h1>
+      <h2 id="allRecipe"><i>All Recipe</i></h2>
       <div id="articles"></div>
       <div id="notes"></div>
     </div>
